@@ -1,5 +1,13 @@
 Revision history for Perl extension Pg::Simple.
 
+1.20 2006-08-15  Diab Jerius
+        * bug in connect() caused the User and Password
+        attributes passed to the constructor to be ignored.
+        (Thanks to John Lewis for catching this)
+
+1.10 2004-10-24 Diab Jerius
+        * added fetch_hashref method
+
 1.00  Fri Feb 15 23:46:52 EST 2002
         - renamed from PgSimple to Pg::Simple for public release.
 

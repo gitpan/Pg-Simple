@@ -1,6 +1,6 @@
-			  =================
-			  Pg::Simple v. 1.0
-			  =================
+			  ==================
+			  Pg::Simple v. 1.20
+			  ================== 
 
 NAME
 
@@ -35,9 +35,18 @@ CHANGES
 
     See the Changes file for more details
 
-    1.0
+    1.20
     ----
+    connect() ignored the User and Password attributes passed to the
+    constructor.
 
+    1.10
+    ---
+    added fetch_hashref method.
+
+
+    1.00
+    -----
     First public version.
 
 COPYRIGHT
